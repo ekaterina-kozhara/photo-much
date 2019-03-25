@@ -1,0 +1,11 @@
+@font-face {
+  font-family: "Sansation_Bold";
+
+  src: url("../fonts/Sansation_Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Sansation_Light";
+
+  src: url("../fonts/Sansation_Light.woff") format("woff");
+}

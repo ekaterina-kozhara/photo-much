@@ -1,0 +1,236 @@
+body {
+  overflow: hidden;
+  overflow-y: hidden;
+  background-color: #1E1E1E;
+}
+
+.toCenter img {
+  filter: gray;
+  filter: grayscale(100%);
+  display: none;
+  transition: all 1s;
+}
+
+.toCenter img:hover {
+  filter: none;
+  transition: all 1s;
+  transform: scale(1.1);
+}
+
+p {
+  margin-bottom: 25px;
+  font-size: 96px;
+  font-family: "Sansation_Bold";
+  color: #FFFCFC;
+
+}
+
+.blinkingCircle {
+  cursor: pointer;
+  z-index: 5;
+  /* position: absolute; */
+  background-color: red;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  transition: 1100ms all ease;
+  animation: vibration 2000ms linear infinite;
+}
+
+.blinkingCircle2 {
+  display: none;
+  z-index: -1;
+  position: absolute;
+  background-color: red;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+
+/* .blinkingCircleFirst {
+  z-index: 5;
+  position: absolute;
+  background-color: red;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  transition: 800ms all ease;
+  animation: vibration 1000ms linear infinite;
+} */
+
+@keyframes vibration {
+    0% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    20% {
+      transform: scale(1.2);
+      opacity: 0.8;
+    }
+    40% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    60% {
+      transform: scale(1.2);
+      opacity: 0.8;
+    }
+    80% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    100% {
+      opacity: 0.8;
+    }
+  }
+
+main {
+  overflow: hidden;
+}
+
+.toCenter {
+  z-index: 2;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.tracker {
+  /* overflow: hidden; */
+  width: 60vw;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  justify-content: space-between;
+  align-items: center;
+}
+
+p.miniLogo {
+  z-index: 3;
+  margin-right: -7px;
+  font-family: "Sansation_Light";
+  margin-top: 120px;
+  font-size: 19px;
+  letter-spacing: 0.7em;
+  color: #FF0000;
+}
+
+.slogan {
+  width: 60vw;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.concert, .send, .food, .piano {
+  cursor: pointer;
+  position: absolute;
+}
+
+.concert {
+  left: -23%;
+  top: 39%;
+  width: 70%;
+  transform: rotate(30deg);
+}
+
+.food {
+  z-index: 3;
+  right: -2%;
+  top: -40%;
+  width: 55%;
+  transform: rotate(24deg);
+}
+
+.piano {
+  z-index: 4;
+  right: -20%;
+  top: -5%;
+  width: 50%;
+  transform: rotate(-130deg);
+}
+
+.send {
+  z-index: 5;
+  right: -6%;
+  top: -10%;
+  width: 30%;
+  transform: rotate(10deg);
+}
+
+
+.circleDown {
+  display: none;
+  z-index: -40;
+  position: absolute;
+  left: -6%;
+  bottom: -40%;
+}
+
+.circleUp {
+  overflow: hidden;
+  display: none;
+}
+
+.circle1 {
+  display: none;
+  z-index: -40;
+  background-color: red;
+  width: 800px;
+  height: 800px;
+  border-radius: 50%;
+}
+
+p.circleWords {
+  display: none;
+  z-index: -30;
+  position: absolute;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 3.875rem;
+  line-height: 75px;
+  color: #FFFFFF;
+  left: 23%;
+  bottom: 49%;
+}
+
+.circle2 {
+  background-color: red;
+  width: 700px;
+  height: 700px;
+  border-radius: 50%;
+  z-index: 10;
+  position: absolute;
+  margin-left: 64%;
+  margin-top: -21%;
+}
+
+p.circleWords2 {
+  z-index: -30;
+  text-align: right;
+  z-index: 13;
+  position: absolute;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 3.6rem;
+  line-height: 89px;
+  color: #FFFFFF;
+  right: 7%;
+  top: 1%;
+}
+
+.logo {
+  display: none;
+  /* z-index: 400; */
+  position: absolute;
+  right: -3%;
+  margin-top: 42%;
+  width: 10%;
+  transform: rotate(-90deg);
+}
