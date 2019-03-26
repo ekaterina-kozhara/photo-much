@@ -233,7 +233,7 @@ p.miniLogo {
 .jump {
   transition: 1000ms all ease;
   animation-direction: alternate-reverse;
-  animation: jump 6200ms ease-in-out infinite;
+  animation: jump 6600ms ease-in-out infinite;
 }
 
 .piano {
@@ -285,7 +285,7 @@ p.miniLogo {
     transform: rotate(40deg);
   }
   40% {
-    transform: scale(1.5);
+    transform: scale(1.2);
     top: 18%;
   }
   80% {
@@ -302,7 +302,7 @@ p.miniLogo {
     transform: rotate(20deg);
   }
   40% {
-    transform: scale(1.5);
+    transform: scale(1.1);
     top: 10%;
   }
   80% {
@@ -320,7 +320,7 @@ p.miniLogo {
     transform: rotate(20deg);
   }
   40% {
-    transform: scale(1.5);
+    transform: scale(1.2);
     top: 10%;
   }
   80% {
@@ -338,7 +338,7 @@ p.miniLogo {
     transform: rotate(40deg);
   }
   40% {
-    transform: scale(1.5);
+    transform: scale(1.3);
     top: 16%;
   }
   80% {
