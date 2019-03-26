@@ -28,13 +28,14 @@ $( ".blinkingCircle" ).click(function() {
 	setTimeout(function(){
 		$( ".first" ).css( {"opacity": "0"} )
 		$( ".first" ).css( {"transition": "3s"} )
-	}, 1000);
+	}, 900);
 
 	setTimeout(function(){
 		$( ".tracker" ).css( {"width": "110vw"} )
 	}, 3000);
 
 	setTimeout(function(){
+		$( ".miniLogo" ).css( {"margin-right": "10%"} )
 		$( ".miniLogo" ).css( {"margin-top": "70px"} )
 		$( ".miniLogo" ).css( {"letter-spacing": "0.1em"} )
 		$( ".miniLogo" ).css( {"font-family": "Sansation_Bold"} )
@@ -59,47 +60,4 @@ $( ".blinkingCircle" ).click(function() {
 
 
 	}, 14000);
-
-	 // document.body.style.overflowX = "visible"
 })
-
-// $( ".concert" ).click(function() {
-// 	$( ".concert" ).css( {"display": "none"} )
-// 	$( ".concert" ).css( {"transition": "0.5s"} )
-// 	$( ".circle1" ).css( {"display": "block"} )
-// 	$( ".circle1" ).css( {"z-index": "100"} )
-// 	$( ".circleWords" ).css( {"display": "block"} )
-// 	$( ".circleWords" ).css( {"z-index": "100"} )
-// 	$( ".circleDown" ).css( {"display": "block" } )
-// 	$( ".circleDown" ).css( {"z-index": "100"} )
-// 	$( ".logo" ).css( {"display": "block"} )
-// 	$( ".logo" ).css( {"z-index": "400"} )
-//
-//
-// })
-
-// $( ".send, .piano, .food" ).click(function() {
-// 	$( ".send, .piano, .food" ).css( {"display": "none"} )
-// 	$( ".send, .piano, .food" ).css( {"transition": "0.5s"} )
-// 	$( ".circle2" ).css( {"display": "block"} )
-// 	$( ".circle2" ).css( {"z-index": "100"} )
-// 	$( ".circleWords2" ).css( {"display": "block"} )
-// 	$( ".circleWords2" ).css( {"z-index": "100"} )
-// 	$( ".circleUp" ).css( {"display": "block"} )
-// 	$( ".circleUp" ).css( {"z-index": "200"} )
-// })
-
-// anime({
-//   targets: '.path',
-//   strokeDashoffset: [anime.setDashoffset, 0],
-//   easing: 'easeInOutSine',
-//   duration: 1000,
-//   delay: 8000,
-//   direction: 'alternate',
-//   // loop: true
-// });
-
-// setTimeout(function(){
-// 	$( ".concert" ).css( {"z-index": "3" } )
-// 	$( ".concert" ).css( {"transition": "1s"} )
-// }, 6000);

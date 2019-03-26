@@ -2,6 +2,7 @@ body {
   overflow: hidden !important;
   overflow-y: hidden;
   background-color: #1E1E1E;
+  transition: all 3s;
 }
 
 .toCenter img {
@@ -730,80 +731,92 @@ p.circleWords2 {
   }
 
 
-  @media all and (max-width: 530px) and (min-width: 200px) {
-    p.first {
-      font-size: 28px;
-    }
-
-    p.miniLogo {
-      margin-right: -4px;
-      font-size: 10px;
-      letter-spacing: 0.12em;
-      margin-top: 52px;
-    }
-
-    h2 {
-      position: absolute;
-      font-size: 26px;
-    }
-
-    .blinkingCircle {
-      width: 10px;
-      height: 10px;
-    }
-
-    .slogan {
-      width: 60vw;
-    }
-
-    .tracker {
-      width: 60vw;
-    }
+@media all and (max-width: 530px) and (min-width: 200px) {
+  p.first {
+    font-size: 28px;
   }
 
-  @media all and (max-width: 490px) and (min-width: 200px) {
-    p.first {
-      font-size: 24px;
-    }
-
-    p.miniLogo {
-      margin-right: -4px;
-      font-size: 9px;
-      letter-spacing: 0.09em;
-      margin-top: 52px;
-    }
-
-    h2 {
-      position: absolute;
-      font-size: 26px;
-    }
-
-    .blinkingCircle {
-      width: 10px;
-      height: 10px;
-    }
-
-    .slogan {
-      width: 65vw;
-    }
-
-    .tracker {
-      width: 65vw;
-    }
+  p.miniLogo {
+    margin-right: -4px;
+    font-size: 10px;
+    letter-spacing: 0.12em;
+    margin-top: 52px;
   }
 
-  @media all and (max-width: 410px) and (min-width: 200px) {
-    .slogan {
-      width: 80vw;
-    }
-
-    .blinkingCircle {
-      margin-top: -18px;
-    }
-
-    .tracker {
-      width: 80vw;
-      font-size: 23px;
-    }
+  h2 {
+    position: absolute;
+    font-size: 26px;
   }
+
+  .blinkingCircle {
+    width: 10px;
+    height: 10px;
+  }
+
+  .slogan {
+    width: 60vw;
+  }
+
+  .tracker {
+    width: 60vw;
+  }
+}
+
+@media all and (max-width: 490px) and (min-width: 200px) {
+  p.first {
+    font-size: 24px;
+  }
+
+  p.miniLogo {
+    margin-right: -4px;
+    font-size: 9px;
+    letter-spacing: 0.09em;
+    margin-top: 52px;
+  }
+
+  h2 {
+    position: absolute;
+    font-size: 26px;
+  }
+
+  .blinkingCircle {
+    width: 10px;
+    height: 10px;
+  }
+
+  .slogan {
+    width: 65vw;
+  }
+
+  .tracker {
+    width: 65vw;
+  }
+}
+
+@media all and (max-width: 410px) and (min-width: 200px) {
+  .slogan {
+    width: 80vw;
+  }
+
+  p.miniLogo {
+    font-size: 9px;
+    margin-top: 50px;
+    letter-spacing: 0.09em;
+    margin-right: -4px;
+  }
+
+  .blinkingCircle {
+    margin-top: -18px;
+  }
+
+  .tracker {
+    width: 80vw;
+    font-size: 23px;
+  }
+
+  h2 {
+    position: absolute;
+    font-size: 21px;
+  }
+}
 }
