@@ -7,14 +7,14 @@ body {
 .toCenter img {
   filter: gray;
   filter: grayscale(100%);
-  display: none;
+  opacity: 0;
   transition: all 1s;
 }
 
 .toCenter img:hover {
   filter: none;
   transition: all 1s;
-  transform: scale(1.1);
+  /* transform: scale(1.1); */
 }
 
 p {
@@ -27,7 +27,7 @@ p {
 
 .blinkingCircle {
   cursor: pointer;
-  z-index: 5;
+  z-index: 30;
   /* position: absolute; */
   background-color: red;
   width: 45px;
@@ -39,7 +39,7 @@ p {
 
 .blinkingCircle2 {
   display: none;
-  z-index: -1;
+  z-index: 20;
   position: absolute;
   background-color: red;
   width: 45px;
@@ -129,40 +129,192 @@ p.miniLogo {
 }
 
 .concert, .send, .food, .piano {
-  cursor: pointer;
+  /* cursor: pointer; */
   position: absolute;
 }
 
 .concert {
-  left: -23%;
-  top: 39%;
-  width: 70%;
-  transform: rotate(30deg);
+  z-index: 8;
+  position: absolute;
+  width: 40%;
+  left: -10%;
+  top: 45%;
+  transform: rotate(43deg);
 }
 
 .food {
-  z-index: 3;
-  right: -2%;
-  top: -40%;
-  width: 55%;
-  transform: rotate(24deg);
+  z-index: 5;
+  position: absolute;
+  width: 50%;
+  right: 13%;
+  bottom: -35%;
+  transform: rotate(-8.41deg);
+}
+
+.water {
+  z-index: 5;
+  position: absolute;
+  width: 45%;
+  left: 35%;
+  top: -5%;
 }
 
 .piano {
-  z-index: 4;
-  right: -20%;
-  top: -5%;
-  width: 50%;
-  transform: rotate(-130deg);
+  z-index: 7;
+  position: absolute;
+  width: 40%;
+  left: -7%;
+  top: -34%;
+  transform: rotate(-20deg);
+}
+
+.waterfall {
+  z-index: 11;
+  position: absolute;
+  width: 30%;
+  right: -13%;
+  top: -13%;
+  transform: rotate(25.46deg);
 }
 
 .send {
-  z-index: 5;
-  right: -6%;
-  top: -10%;
+  z-index: 9;
+  position: absolute;
   width: 30%;
-  transform: rotate(10deg);
+  right: -14%;
+  top: 40%;
+  transform: rotate(-80deg);
 }
+
+.redbaloon {
+  z-index: 9;
+  position: absolute;
+  width: 40%;
+  left: 10%;
+  top: -3%;
+  transform: rotate(-24deg);
+}
+
+.jump {
+  z-index: 1;
+  position: absolute;
+  width: 70%;
+  left: -25%;
+  top: -3%;
+  /* transform: rotate(-24deg); */
+}
+
+.feet {
+  z-index: 5;
+  position: absolute;
+  width: 30%;
+  left: 25%;
+  top: 10%;
+}
+
+.backetball {
+  z-index: 6;
+  position: absolute;
+  width: 50%;
+  left: 65%;
+  top: 50%;
+  /* transform: rotate(-24deg); */
+}
+
+.football {
+  z-index: 5;
+  position: absolute;
+  width: 50%;
+  left: 55%;
+  top: 30%;
+  /* transform: rotate(-24deg); */
+}
+
+.redbaloon, .send, .backetball {
+  transition: 2000ms all ease;
+  animation-direction: alternate-reverse;
+  animation: floating 9000ms ease-in-out infinite;
+}
+
+.piano, .food, .waterfall {
+  transition: 2000ms all ease;
+  animation-direction: alternate-reverse;
+  animation: floating2 12000ms ease-in-out infinite;
+}
+
+.concert, .water, .jump, .watefall, .football {
+  transition: 2000ms all ease;
+  animation-direction: alternate-reverse;
+  animation: floating3 13000ms ease-in-out infinite;
+}
+
+@keyframes floating {
+    0% {
+      transform: rotate(-10deg);
+    }
+    20% {
+      transform: rotate(-15deg);
+      transform: scale(1.1);
+    }
+    40% {
+      transform: rotate(20deg);
+    }
+    60% {
+      transform: rotate(-10deg);
+    }
+    80% {
+      transform: scale(1.1);
+      transform: rotate(20deg);
+    }
+    100% {
+      transform: rotate(-10deg);
+    }
+  }
+
+@keyframes floating2 {
+    0% {
+      transform: rotate(-10deg);
+    }
+    20% {
+      transform: rotate(15deg);
+    }
+    40% {
+      transform: rotate(-20deg);
+    }
+    60% {
+      transform: scale(1.1);
+      transform: rotate(10deg);
+    }
+    80% {
+      transform: rotate(-20deg);
+    }
+    100% {
+      transform: rotate(10deg);
+    }
+  }
+
+@keyframes floating3 {
+    0% {
+      transform: rotate(-30deg);
+    }
+    20% {
+      transform: rotate(22deg);
+      transform: scale(1.1);
+    }
+    40% {
+      transform: rotate(-10deg);
+    }
+    60% {
+      transform: rotate(20deg);
+    }
+    80% {
+      transform: scale(1.1);
+      transform: rotate(-35deg);
+    }
+    100% {
+      transform: rotate(5deg);
+    }
+  }
 
 
 .circleDown {
@@ -233,4 +385,14 @@ p.circleWords2 {
   margin-top: 42%;
   width: 10%;
   transform: rotate(-90deg);
+}
+
+@media all and (max-width: 1750px) and (min-width: 200px) {
+  .tracker {
+    width: 75vw;
+  }
+
+  .slogan {
+    width: 75vw;
+  }
 }
