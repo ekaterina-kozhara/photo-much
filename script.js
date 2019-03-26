@@ -59,11 +59,14 @@ $( ".blinkingCircle" ).click(function() {
 		$( ".blinkingCircle2" ).css( {"transition": "1s"} )
 		$( ".blinkingCircle2" ).css( {"background-color": "red"} )
 		$( "body" ).css( {"background-color": "#1E1E1E"} )
-		$( ".blinkingCircle" ).css( {"position": "absolute"} )
+		$( ".blinkingCircle2" ).css( {"position": "absolute"} )
 		$( ".blinkingCircle2, .blinkingCircle" ).css( {"opacity": "1"} )
 		$( ".tracker" ).css( {"opacity": "1"} )
 		$( ".first" ).css( {"opacity": "1"} )
 		$( ".tracker" ).css( {"width": "60vw"} )
+		$( ".miniLogo" ).css( {"margin-right": "-7px"} )
+		$( ".miniLogo" ).css( {"margin-top": "120"} )
+		$( ".miniLogo" ).css( {"letter-spacing": "0.7em"} )
 
 
 	}, 17000);
