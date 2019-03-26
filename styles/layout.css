@@ -231,69 +231,69 @@ p.miniLogo {
 }
 
 .piano {
-  transition: 2000ms all ease;
+  transition: 500ms all ease;
   animation-direction: alternate-reverse;
   animation: piano 6400ms ease-in-out infinite;
 }
 
 .jump {
-  transition: 1000ms all ease;
+  transition: 500ms all ease;
   animation-direction: alternate-reverse;
   animation: jump 6500ms ease-in-out infinite;
 }
 
 .concert {
-  transition: 2000ms all ease;
+  transition: 500ms all ease;
   animation-direction: alternate-reverse;
-  animation: concert 6800ms ease-in-out infinite;
+  animation: concert 6600ms ease-in-out infinite;
 }
 
 .redbaloon {
-  transition: 1000ms all ease;
+  transition: 500ms all ease;
   animation-direction: alternate-reverse;
-  animation: redbaloon 7000ms ease-in-out infinite;
+  animation: redbaloon 6700ms ease-in-out infinite;
 }
 
 .feet {
-  transition: 2000ms all ease;
+  transition: 500ms all ease;
   animation-direction: alternate-reverse;
-  animation: feet 7200ms ease-in-out infinite;
+  animation: feet 6800ms ease-in-out infinite;
 }
 
 .food {
-  transition: 2000ms all ease;
+  transition: 5000ms all ease;
   animation-direction: alternate-reverse;
-  animation: food 7100ms ease-in-out infinite;
+  animation: food 6900ms ease-in-out infinite;
 }
 
 .water {
-  transition: 2000ms all ease;
+  transition: 500ms all ease;
   animation-direction: alternate-reverse;
-  animation: water 7300ms ease-in-out infinite;
+  animation: water 7000ms ease-in-out infinite;
 }
 
 .backetball {
-  transition: 1000ms all ease;
+  transition: 500ms all ease;
   animation-direction: alternate-reverse;
-  animation: backetball 8000ms ease-in-out infinite;
+  animation: backetball 7100ms ease-in-out infinite;
 }
 
 .football {
-  transition: 2000ms all ease;
+  transition: 500ms all ease;
   animation-direction: alternate-reverse;
-  animation: football 8200ms ease-in-out infinite;
+  animation: football 7200ms ease-in-out infinite;
 }
 
 .send {
-  transition: 1000ms all ease;
+  transition: 500ms all ease;
   animation-direction: alternate-reverse;
-  animation: send 8300ms ease-in-out infinite;
+  animation: send 7300ms ease-in-out infinite;
 }
 
 .waterfall {
-  transition: 2000ms all ease;
+  transition: 500ms all ease;
   animation-direction: alternate-reverse;
-  animation: waterfall 8400ms ease-in-out infinite;
+  animation: waterfall 7400ms ease-in-out infinite;
 }
 
 
