@@ -25,6 +25,15 @@ p {
 
 }
 
+p.second {
+  display: none;
+  margin-bottom: 25px;
+  font-size: 96px;
+  font-family: "Sansation_Bold";
+  color: #FFFCFC;
+
+}
+
 .blinkingCircle {
   cursor: pointer;
   z-index: 100;
@@ -104,7 +113,7 @@ p.miniLogo {
   font-family: "Sansation_Light";
   margin-top: 120px;
   font-size: 19px;
-  letter-spacing: 0.7em;
+  letter-spacing: 0.63em;
   color: #FF0000;
 }
 
@@ -115,6 +124,31 @@ p.miniLogo {
   position: absolute;
   justify-content: flex-end;
   align-items: center;
+}
+
+h2 {
+  position: absolute;
+  font-size: 50px;
+  font-family: "Sansation_Light";
+  color: #E81515;
+  align-self: center;
+}
+
+
+.last {
+  z-index: 50;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #FFFCFC;
+  margin-top: -100%;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  /* display: none; */
 }
 
 .concert {
@@ -283,7 +317,7 @@ p.miniLogo {
     transform: rotate(40deg);
   }
   40% {
-    transform: scale(1.2);
+    transform: scale(1.1);
     top: 18%;
   }
   80% {
@@ -300,7 +334,7 @@ p.miniLogo {
     transform: rotate(20deg);
   }
   40% {
-    transform: scale(1.1);
+    transform: scale(0.7);
     top: 10%;
   }
   80% {
@@ -318,7 +352,7 @@ p.miniLogo {
     transform: rotate(20deg);
   }
   40% {
-    transform: scale(1.2);
+    transform: scale(0.6);
     top: 63%;
   }
   80% {
@@ -336,7 +370,7 @@ p.miniLogo {
     transform: rotate(40deg);
   }
   40% {
-    transform: scale(1.3);
+    transform: scale(1.1);
     top: 16%;
   }
   80% {
@@ -353,7 +387,7 @@ p.miniLogo {
     transform: rotate(20deg);
   }
   40% {
-    transform: scale(1.5);
+    transform: scale(0.9);
     top: -27%;
   }
   80% {
@@ -371,7 +405,7 @@ p.miniLogo {
     transform: rotate(20deg);
   }
   40% {
-    transform: scale(1.5);
+    transform: scale(1.2);
     top: 60%;
   }
   80% {
@@ -390,7 +424,7 @@ p.miniLogo {
     transform: rotate(40deg);
   }
   40% {
-    transform: scale(1.2);
+    transform: scale(1.1);
     top: 23%;
   }
   80% {
@@ -407,7 +441,7 @@ p.miniLogo {
     transform: rotate(20deg);
   }
   40% {
-    transform: scale(1.1);
+    transform: scale(0.9);
     top: -9%;
   }
   80% {
@@ -443,7 +477,7 @@ p.miniLogo {
     transform: rotate(20deg);
   }
   40% {
-    transform: scale(1.1);
+    transform: scale(0.9);
     top: -13%;
   }
   80% {
@@ -461,7 +495,7 @@ p.miniLogo {
     transform: rotate(20deg);
   }
   40% {
-    transform: scale(1.2);
+    transform: scale(0.7);
     top: 34%;
   }
   80% {
