@@ -263,13 +263,13 @@ p.miniLogo {
 .food {
   transition: 2000ms all ease;
   animation-direction: alternate-reverse;
-  animation: food 7400ms ease-in-out infinite;
+  animation: food 7100ms ease-in-out infinite;
 }
 
 .water {
   transition: 2000ms all ease;
   animation-direction: alternate-reverse;
-  animation: water 7500ms ease-in-out infinite;
+  animation: water 7300ms ease-in-out infinite;
 }
 
 .backetball {
