@@ -1,4 +1,4 @@
-$( ".blinkingCircle" ).click(function() {
+$(".blinkingCircle").click(function() {
 	$(function(){
 		$(".blinkingCircle").css({"animation": "none"})
 		$("#blinkingCircle").hide();
