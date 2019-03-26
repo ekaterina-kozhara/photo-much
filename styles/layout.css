@@ -47,17 +47,6 @@ p {
   border-radius: 50%;
 }
 
-/* .blinkingCircleFirst {
-  z-index: 5;
-  position: absolute;
-  background-color: red;
-  width: 55px;
-  height: 55px;
-  border-radius: 50%;
-  transition: 800ms all ease;
-  animation: vibration 1000ms linear infinite;
-} */
-
 @keyframes vibration {
     0% {
       transform: scale(1);
@@ -128,10 +117,9 @@ p.miniLogo {
   align-items: center;
 }
 
-.concert, .send, .food, .piano {
-  /* cursor: pointer; */
+/* .concert, .send, .food, .piano {
   position: absolute;
-}
+} */
 
 .concert {
   z-index: 8;
@@ -492,63 +480,6 @@ p.miniLogo {
     transform: rotate(-10deg);
   }
 }
-
-
-
-
-/* @keyframes floating4 {
-  0% {
-    top: 300%;
-    transform: rotate(15deg);
-  }
-  20% {
-    transform: rotate(-45deg);
-    transform: scale(1.5);
-    top: -2%;
-  }
-  40% {
-    transform: rotate(12deg);
-  }
-  60% {
-    transform: rotate(-30deg);
-  }
-  80% {
-    transform: scale(1.1);
-    transform: rotate(40deg);
-  }
-  100% {
-    transform: rotate(15deg);
-    top: 300%;
-  }
-}
-
-@keyframes floating5 {
-  0% {
-    top: 300%;
-    transform: rotate(-10deg);
-  }
-  20% {
-    transform: rotate(15deg);
-    transform: scale(1.5);
-  }
-  40% {
-    transform: rotate(-5deg);
-  }
-  60% {
-    transform: rotate(30deg);
-    top: 40%;
-  }
-  80% {
-    transform: scale(1.1);
-    transform: rotate(-40deg);
-  }
-  100% {
-    transform: rotate(15deg);
-    top: 300%;
-  }
-}
- */
-
 
 .circleDown {
   display: none;
