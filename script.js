@@ -24,20 +24,10 @@ $( ".blinkingCircle" ).click(function() {
 		$( ".blinkingCircle" ).remove()
 		$( ".blinkingCircle2, .blinkingCircle" ).css( {"transition": "1s"} )
   }, 6000);
-	// setTimeout(function(){
-	// 		$( ".toCenter" ).css( {"margin-bottom": "500px" } )
-	// 		$( ".toCenter" ).css( {"transition": "1s"} )
-	// 		// $( ".line" ).css( {"z-index": "2" } )
-	// 		// $( ".first" ).css( {"transition": "3s"} )
-	// }, 8000);
 
 	setTimeout(function(){
 			$( ".tracker" ).css( {"width": "110vw"} )
 	}, 3000);
-
-	// setTimeout(function(){
-	// 		$( ".miniLogo" ).css( {"z-index": "4" } )
-	// }, 4000);
 
 	setTimeout(function(){
 	    $( ".first" ).css( {"display": "none"} )
@@ -57,6 +47,10 @@ $( ".blinkingCircle" ).click(function() {
 			$( ".concert, .food, .piano, .send, .jump, .redbaloon, .waterfall, .water, .football, .feet, .backetball" ).css( {"opacity": "1"} )
 			$( ".concert, .food, .piano, .send, .jump, .redbaloon, .waterfall, .water, .football, .feet, .backetball" ).css( {"transition": "5s"} )
 	}, 5000);
+	setTimeout(function(){
+	    $( ".concert, .food, .piano, .send, .jump, .redbaloon, .waterfall, .water, .football, .feet, .backetball" ).css( {"opacity": "0"} )
+			$( ".concert, .food, .piano, .send, .jump, .redbaloon, .waterfall, .water, .football, .feet, .backetball" ).css( {"transition": "3s"} )
+	}, 16000);
 	 // document.body.style.overflowX = "visible"
 })
 
