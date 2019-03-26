@@ -147,7 +147,7 @@ p.miniLogo {
   position: absolute;
   width: 50%;
   right: 13%;
-  bottom: -18%;
+  top: 63%;
   transform: rotate(-8.41deg);
 }
 
@@ -269,7 +269,7 @@ p.miniLogo {
 .water {
   transition: 2000ms all ease;
   animation-direction: alternate-reverse;
-  animation: water 7600ms ease-in-out infinite;
+  animation: water 7500ms ease-in-out infinite;
 }
 
 .backetball {
@@ -283,6 +283,19 @@ p.miniLogo {
   animation-direction: alternate-reverse;
   animation: football 8200ms ease-in-out infinite;
 }
+
+.send {
+  transition: 1000ms all ease;
+  animation-direction: alternate-reverse;
+  animation: send 8300ms ease-in-out infinite;
+}
+
+.waterfall {
+  transition: 2000ms all ease;
+  animation-direction: alternate-reverse;
+  animation: waterfall 8400ms ease-in-out infinite;
+}
+
 
 @keyframes redbaloon {
   0% {
@@ -326,7 +339,7 @@ p.miniLogo {
   }
   40% {
     transform: scale(1.2);
-    top: 10%;
+    top: 63%;
   }
   80% {
     transform: rotate(-10deg);
@@ -443,6 +456,43 @@ p.miniLogo {
     transform: rotate(-10deg);
   }
 }
+
+@keyframes waterfall {
+  0% {
+    top: 300%;
+    transform: rotate(20deg);
+  }
+  40% {
+    transform: scale(1.1);
+    top: -13%;
+  }
+  80% {
+    transform: rotate(-10deg);
+  }
+  100% {
+    top: 300%;
+    transform: rotate(-10deg);
+  }
+}
+
+@keyframes send {
+  0% {
+    top: 300%;
+    transform: rotate(20deg);
+  }
+  40% {
+    transform: scale(1.2);
+    top: 34%;
+  }
+  80% {
+    transform: rotate(-10deg);
+  }
+  100% {
+    top: 300%;
+    transform: rotate(-10deg);
+  }
+}
+
 
 
 

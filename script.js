@@ -55,7 +55,7 @@ $( ".blinkingCircle" ).click(function() {
 
 	setTimeout(function(){
 			$( ".concert, .food, .piano, .send, .jump, .redbaloon, .waterfall, .water, .football, .feet, .backetball" ).css( {"opacity": "1"} )
-			$( ".concert, .food, .piano, .send, .jump, .redbaloon, .waterfall, .water, .football, .feet, .backetball" ).css( {"transition": "6s"} )
+			$( ".concert, .food, .piano, .send, .jump, .redbaloon, .waterfall, .water, .football, .feet, .backetball" ).css( {"transition": "5s"} )
 	}, 5000);
 	 // document.body.style.overflowX = "visible"
 })
