@@ -230,16 +230,16 @@ p.miniLogo {
   /* transform: rotate(-24deg); */
 }
 
-.jump {
-  transition: 1000ms all ease;
-  animation-direction: alternate-reverse;
-  animation: jump 6600ms ease-in-out infinite;
-}
-
 .piano {
   transition: 2000ms all ease;
   animation-direction: alternate-reverse;
   animation: piano 6400ms ease-in-out infinite;
+}
+
+.jump {
+  transition: 1000ms all ease;
+  animation-direction: alternate-reverse;
+  animation: jump 6500ms ease-in-out infinite;
 }
 
 .concert {
@@ -266,18 +266,23 @@ p.miniLogo {
   animation: food 7400ms ease-in-out infinite;
 }
 
-/* .water, .waterfall {
+.water {
   transition: 2000ms all ease;
   animation-direction: alternate-reverse;
-  animation: floating4 11000ms ease-in-out infinite;
+  animation: water 7600ms ease-in-out infinite;
 }
 
-.piano, .feet {
+.backetball {
+  transition: 1000ms all ease;
+  animation-direction: alternate-reverse;
+  animation: backetball 8000ms ease-in-out infinite;
+}
+
+.football {
   transition: 2000ms all ease;
   animation-direction: alternate-reverse;
-  animation: floating4 11000ms ease-in-out infinite;
-} */
-
+  animation: football 8200ms ease-in-out infinite;
+}
 
 @keyframes redbaloon {
   0% {
@@ -384,6 +389,61 @@ p.miniLogo {
     transform: rotate(-10deg);
   }
 }
+
+
+@keyframes backetball {
+  0% {
+    top: 300%;
+    transform: rotate(40deg);
+  }
+  40% {
+    transform: scale(1.2);
+    top: 23%;
+  }
+  80% {
+    transform: rotate(-30deg);
+  }
+  100% {
+    top: 300%;
+  }
+}
+
+@keyframes water {
+  0% {
+    top: 300%;
+    transform: rotate(20deg);
+  }
+  40% {
+    transform: scale(1.1);
+    top: -9%;
+  }
+  80% {
+    transform: rotate(-10deg);
+  }
+  100% {
+    top: 300%;
+    transform: rotate(-10deg);
+  }
+}
+
+@keyframes football {
+  0% {
+    top: 300%;
+    transform: rotate(20deg);
+  }
+  40% {
+    transform: scale(1.2);
+    top: 52%;
+  }
+  80% {
+    transform: rotate(-10deg);
+  }
+  100% {
+    top: 300%;
+    transform: rotate(-10deg);
+  }
+}
+
 
 
 /* @keyframes floating4 {
