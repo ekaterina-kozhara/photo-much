@@ -117,10 +117,6 @@ p.miniLogo {
   align-items: center;
 }
 
-/* .concert, .send, .food, .piano {
-  position: absolute;
-} */
-
 .concert {
   z-index: 8;
   position: absolute;
@@ -177,7 +173,7 @@ p.miniLogo {
 .redbaloon {
   z-index: 9;
   position: absolute;
-  width: 55%;
+  width: 50%;
   left: 20%;
   top: 18%;
   transform: rotate(-24deg);
@@ -189,7 +185,6 @@ p.miniLogo {
   width: 70%;
   left: -25%;
   top: 16%;
-  /* transform: rotate(-24deg); */
 }
 
 .feet {
@@ -206,7 +201,6 @@ p.miniLogo {
   width: 40%;
   left: 56%;
   top: 23%;
-  /* transform: rotate(-24deg); */
 }
 
 .football {
@@ -215,7 +209,6 @@ p.miniLogo {
   width: 50%;
   left: 61%;
   top: 52%;
-  /* transform: rotate(-24deg); */
 }
 
 .piano {
@@ -283,7 +276,6 @@ p.miniLogo {
   animation-direction: alternate-reverse;
   animation: waterfall 7400ms ease-in-out infinite;
 }
-
 
 @keyframes redbaloon {
   0% {
@@ -543,7 +535,6 @@ p.circleWords2 {
 
 .logo {
   display: none;
-  /* z-index: 400; */
   position: absolute;
   right: -3%;
   margin-top: 42%;
