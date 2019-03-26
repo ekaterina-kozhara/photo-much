@@ -53,10 +53,10 @@ $( ".blinkingCircle" ).click(function() {
 			$( ".miniLogo" ).css( {"transition": "1s"} )
 	}, 3000);
 
-setTimeout(function(){
-		$( ".concert, .food, .piano, .send, .jump, .redbaloon, .waterfall, .water, .football, .feet, .backetball" ).css( {"opacity": "1"} )
-		$( ".concert, .food, .piano, .send, .jump, .redbaloon, .waterfall, .water, .football, .feet, .backetball" ).css( {"transition": "6s"} )
-}, 5000);
+	setTimeout(function(){
+			$( ".concert, .food, .piano, .send, .jump, .redbaloon, .waterfall, .water, .football, .feet, .backetball" ).css( {"opacity": "1"} )
+			$( ".concert, .food, .piano, .send, .jump, .redbaloon, .waterfall, .water, .football, .feet, .backetball" ).css( {"transition": "6s"} )
+	}, 5000);
 	 // document.body.style.overflowX = "visible"
 })
 
