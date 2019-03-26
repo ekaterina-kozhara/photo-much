@@ -230,25 +230,43 @@ p.miniLogo {
   /* transform: rotate(-24deg); */
 }
 
-/* .redbaloon, .send, .backetball {
-  transition: 2000ms all ease;
+.jump {
+  transition: 1000ms all ease;
   animation-direction: alternate-reverse;
-  animation: floating 9000ms ease-in-out infinite;
+  animation: jump 6200ms ease-in-out infinite;
 }
 
-.food, .waterfall {
+.piano {
   transition: 2000ms all ease;
   animation-direction: alternate-reverse;
-  animation: floating2 12000ms ease-in-out infinite;
+  animation: piano 6400ms ease-in-out infinite;
 }
 
-.concert, .jump, .football {
+.concert {
   transition: 2000ms all ease;
   animation-direction: alternate-reverse;
-  animation: floating3 13000ms ease-in-out infinite;
+  animation: concert 6800ms ease-in-out infinite;
 }
 
-.water, .waterfall {
+.redbaloon {
+  transition: 1000ms all ease;
+  animation-direction: alternate-reverse;
+  animation: redbaloon 7000ms ease-in-out infinite;
+}
+
+.feet {
+  transition: 2000ms all ease;
+  animation-direction: alternate-reverse;
+  animation: feet 7200ms ease-in-out infinite;
+}
+
+.food {
+  transition: 2000ms all ease;
+  animation-direction: alternate-reverse;
+  animation: food 7400ms ease-in-out infinite;
+}
+
+/* .water, .waterfall {
   transition: 2000ms all ease;
   animation-direction: alternate-reverse;
   animation: floating4 11000ms ease-in-out infinite;
@@ -261,84 +279,114 @@ p.miniLogo {
 } */
 
 
-@keyframes floating {
+@keyframes redbaloon {
   0% {
     top: 300%;
-    transform: rotate(-10deg);
-  }
-  20% {
-    transform: rotate(-15deg);
-    transform: scale(1.1);
+    transform: rotate(40deg);
   }
   40% {
-    transform: rotate(20deg);
-    top: 5%;
-  }
-  60% {
-    transform: rotate(-10deg);
+    transform: scale(1.5);
+    top: 18%;
   }
   80% {
-    transform: scale(1.1);
-    transform: rotate(20deg);
-  }
-  100% {
-    top: 300%;
-    transform: rotate(-10deg);
-  }
-}
-
-@keyframes floating2 {
-  0% {
-    top: 300%;
-    transform: rotate(-10deg);
-  }
-  20% {
-    transform: rotate(15deg);
-  }
-  40% {
-    transform: rotate(-20deg);
-    top: 20%;
-  }
-  60% {
-    transform: scale(1.1);
-    transform: rotate(10deg);
-  }
-  80% {
-    transform: rotate(-20deg);
-  }
-  100% {
-    transform: rotate(10deg);
-    top: 300%;
-  }
-}
-
-@keyframes floating3 {
-  0% {
-    top: 300%;
     transform: rotate(-30deg);
   }
-  20% {
-    transform: rotate(22deg);
-    transform: scale(1.1);
-  }
-  40% {
-    transform: rotate(-10deg);
-  }
-  60% {
-    transform: rotate(20deg);
-    top: 15%;
-  }
-  80% {
-    transform: scale(1.1);
-    top: 300%;
-    transform: rotate(-35deg);
-  }
   100% {
-    transform: rotate(5deg);
+    top: 300%;
   }
 }
 
-@keyframes floating4 {
+@keyframes feet {
+  0% {
+    top: 300%;
+    transform: rotate(20deg);
+  }
+  40% {
+    transform: scale(1.5);
+    top: 10%;
+  }
+  80% {
+    transform: rotate(-10deg);
+  }
+  100% {
+    top: 300%;
+    transform: rotate(-10deg);
+  }
+}
+
+@keyframes food {
+  0% {
+    top: 300%;
+    transform: rotate(20deg);
+  }
+  40% {
+    transform: scale(1.5);
+    top: 10%;
+  }
+  80% {
+    transform: rotate(-10deg);
+  }
+  100% {
+    top: 300%;
+    transform: rotate(-10deg);
+  }
+}
+
+@keyframes jump {
+  0% {
+    top: 300%;
+    transform: rotate(40deg);
+  }
+  40% {
+    transform: scale(1.5);
+    top: 16%;
+  }
+  80% {
+    transform: rotate(-30deg);
+  }
+  100% {
+    top: 300%;
+  }
+}
+
+@keyframes piano {
+  0% {
+    top: 300%;
+    transform: rotate(20deg);
+  }
+  40% {
+    transform: scale(1.5);
+    top: -27%;
+  }
+  80% {
+    transform: rotate(-10deg);
+  }
+  100% {
+    top: 300%;
+    transform: rotate(-10deg);
+  }
+}
+
+@keyframes concert {
+  0% {
+    top: 300%;
+    transform: rotate(20deg);
+  }
+  40% {
+    transform: scale(1.5);
+    top: 60%;
+  }
+  80% {
+    transform: rotate(-10deg);
+  }
+  100% {
+    top: 300%;
+    transform: rotate(-10deg);
+  }
+}
+
+
+/* @keyframes floating4 {
   0% {
     top: 300%;
     transform: rotate(15deg);
@@ -389,7 +437,7 @@ p.miniLogo {
     top: 300%;
   }
 }
-
+ */
 
 
 .circleDown {
