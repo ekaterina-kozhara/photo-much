@@ -35,7 +35,6 @@ $( ".blinkingCircle" ).click(function() {
 	}, 3000);
 
 	setTimeout(function(){
-		$( ".miniLogo" ).css( {"margin-right": "350px"} )
 		$( ".miniLogo" ).css( {"margin-top": "70px"} )
 		$( ".miniLogo" ).css( {"letter-spacing": "0.1em"} )
 		$( ".miniLogo" ).css( {"font-family": "Sansation_Bold"} )
