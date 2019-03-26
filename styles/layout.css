@@ -27,7 +27,7 @@ p {
 
 .blinkingCircle {
   cursor: pointer;
-  z-index: 30;
+  z-index: 100;
   /* position: absolute; */
   background-color: red;
   width: 45px;
